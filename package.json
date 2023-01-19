@@ -1,0 +1,28 @@
+{
+  "name": "@f2pe/unreal-updaters",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "unreal-plugin.js",
+    "unreal-game.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/f2pe/unreal-updaters.git"
+  },
+  "author": "Nick Lamprecht",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/f2pe/unreal-updaters/issues"
+  },
+  "homepage": "https://gitlab.com/f2pe/unreal-updaters",
+  "scripts": {
+    "release": "commit-and-tag-version"
+  },
+  "dependencies": {
+    "detect-indent": "^7.0.1",
+    "detect-newline": "^4.0.0",
+    "ini": "^3.0.1",
+    "stringify-package": "^1.0.1"
+  }
+}
